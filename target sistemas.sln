@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio2Estoque", "desafio-2-estoque\Desafio2Estoque.csproj", "{767D833E-834B-9C97-36EF-3F2AE6C1A0E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desafio-1-comissao", "desafio-1-comissao", "{BBA90D27-8D9D-EB45-D407-159DEFC4B792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comissoes", "desafio-1-comissao\comissoes-run\Comissoes.csproj", "{B34E84DA-ACD3-0E0E-F07E-9E9F6784C213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{767D833E-834B-9C97-36EF-3F2AE6C1A0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767D833E-834B-9C97-36EF-3F2AE6C1A0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767D833E-834B-9C97-36EF-3F2AE6C1A0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767D833E-834B-9C97-36EF-3F2AE6C1A0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34E84DA-ACD3-0E0E-F07E-9E9F6784C213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34E84DA-ACD3-0E0E-F07E-9E9F6784C213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34E84DA-ACD3-0E0E-F07E-9E9F6784C213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34E84DA-ACD3-0E0E-F07E-9E9F6784C213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B34E84DA-ACD3-0E0E-F07E-9E9F6784C213} = {BBA90D27-8D9D-EB45-D407-159DEFC4B792}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {440ED2C5-BC96-4F8B-B17D-FB81BCF1D138}
+	EndGlobalSection
+EndGlobal
